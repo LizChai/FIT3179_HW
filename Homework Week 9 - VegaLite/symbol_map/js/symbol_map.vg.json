@@ -22,13 +22,12 @@
         "latitude": {"field": "Latitude", "type": "quantitative"},
         "size": {
           "field": "Count",
-          "type": "quantitative",
-          "scale": {"domain": [1, 7]}
+          "type": "ordinal",
+          "scale": {"domain": [1,2,3,4,5,6,7]}
         },
         "color": {
-          "field": "depth",
-          "type": "quantitative",
-          "scale": {"scheme": "reds"}
+          "field": "Country",
+          "type": "nominal"
         }
       }
     }
