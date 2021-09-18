@@ -24,10 +24,6 @@
           "field": "Count",
           "type": "ordinal",
           "scale": {"domain": [1,2,3,4,5,6,7]}
-        },
-        "color": {
-          "field": "Continent",
-          "type": "nominal"
         }
       }
     }
